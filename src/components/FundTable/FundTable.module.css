@@ -1,0 +1,22 @@
+.tableCard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px 24px;
+  box-shadow: 0 6px 16px -8px rgba(0, 0, 0, 0.1);
+}
+
+.toolbarActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.statusBadge {
+  border-radius: 10px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: rgba(82, 196, 26, 0.12);
+  color: #389e0d;
+}
