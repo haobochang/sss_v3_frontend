@@ -15,7 +15,9 @@ export function AppLayout({ title, description, children }: AppLayoutProps) {
         <Typography.Title level={3} className={styles.title}>
           {title}
         </Typography.Title>
-        <Typography.Text className={styles.subtitle}>{description}</Typography.Text>
+        <Typography.Text className={styles.subtitle}>
+          {description}
+        </Typography.Text>
       </Layout.Header>
       <Layout.Content className={styles.content}>{children}</Layout.Content>
     </Layout>
